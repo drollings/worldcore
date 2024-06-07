@@ -1,0 +1,38 @@
+namespace cpp Signals
+
+enum Signals {
+	GLOBAL = 0,
+	RANDOM,
+	COMMAND,
+	SPEECH,
+	GREET,
+	LEAVE,
+	DOOR,
+	DROP,
+	GET,
+	ACT,
+	DEATH,
+	FIGHT,
+	HITPRCNT,
+	SIT,
+	GIVE,
+	WEAR,
+	CONSUME,
+	REMOVE,
+	LOAD,
+	TIMER,
+	START,
+	QUIT,
+	ATTACK,
+	INSTALL,
+	CALL,
+	ENTER,
+	DESTROYREPAIR,
+	ATTACKED,
+	KILL,
+	PUT,
+	MOTION,
+	RESET,
+	TOP
+}
+

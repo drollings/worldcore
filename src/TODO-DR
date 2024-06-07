@@ -1,0 +1,49 @@
+QUESTION:
+Can a wrapped C++ object be accessed properly in a threaded Stackless environment?
+Are there locking issues with the above?
+How can signalling work going from Python to C++ or back?
+Should the skill engine be an independent C++ wrapped object?
+How do visibility lists get computed?
+How well can Boost objects be called from Python and then call Python back?
+
+WorldCore
+----
+Constraints/Get/Set
+Active World (characters, objects, rooms)
+	Index
+	Collision detection?
+	Proximities
+	Pathfinding
+	Vehicles
+	SetMovement API / Lock for resolution
+Objectives/Priorities
+	Keywords, brief descriptions
+	Visibility/Lighting
+	Opinions
+	Friend/Foe
+	Identifying interesting things
+Persistence
+	Binary Blocks for state saves/loads
+Events
+Property lookup
+Signaling
+	Generate list of listening
+Affects
+Simple Minds
+Skill checks
+
+Python
+----
+Reloading WorldCore
+	Import/Export of world with text formats for updates
+	Detecting mangled binary blocks and reload previous
+Logins
+	SInterface
+	Parsing
+	Input scrubbing and interpretation
+	OLC
+Permissions
+Advanced scripting???
+Descriptions
+Generators/Prototypes
+	Alleles / Genetic traits
